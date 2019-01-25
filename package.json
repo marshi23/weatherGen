@@ -1,0 +1,36 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "description": "tree generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshi23/treeGen.git"
+  },
+  "keywords": [
+    "p5.js",
+    "node"
+  ],
+  "author": "maryam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marshi23/treeGen/issues"
+  },
+  "homepage": "https://github.com/marshi23/treeGen#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
